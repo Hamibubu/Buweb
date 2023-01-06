@@ -33,3 +33,10 @@ Install the requirements.txt
 ```text
 pip3 install -r requirements.txt
 ```
+Run it 
+
+Example
+
+```text
+python3 Buweb.py -u "http://domain.com/" -c
+```
