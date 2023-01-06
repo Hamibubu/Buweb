@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 import urllib.parse as urlparse
 from tqdm import tqdm
 
+#Created by Abraham de León Gutiérrez
+
 Bienvenida = " ______                    _     \n" + "(____  \                  | |    \n" + " ____)  )_   _ _ _ _  ____| | _  \n" + "|  __  (| | | | | | |/ _  ) || \ \n" + "| |__)  ) |_| | | | ( (/ /| |_) )\n" + "|______/ \____|\____|\____)____/ \n"
 
 print(Bienvenida)
