@@ -18,7 +18,7 @@ signal.signal(signal.SIGINT, handler)
 
 def getARG():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-u", "--url", dest="url", help="http/https://tudominio.com")
+    parser.add_argument("-u", "--url", dest="url", help="http/https://tudominio.com así")
     parser.add_argument("-w", "--wordlist", dest="wordlist", help="/usr/share/wordlists/rockyou.txt por ejemplo")
     parser.add_argument("-s", "--subdomain", dest="subdomain", help="Opcion para buscar subdominios", default=False, action="store_true")
     parser.add_argument("-d", "--dirs", dest="dirs", help="Opcion para escanear directorios", default=False, action="store_true")
