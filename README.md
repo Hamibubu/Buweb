@@ -30,3 +30,6 @@ git clone https://github.com/Hamibubu/buweb.git
 
 Install the requirements.txt
 
+```text
+pip3 install -r requirements.txt
+```
