@@ -1,18 +1,22 @@
 # buweb
 Crawler, bruteforce directory, bruteforce login
 
-## ¿Cómo se usa?
+## ¿How to use it?
 
 -u Specify url 
 ```text
--u "https://midominio.com/"
+-u "https://example.com/"
 ```
 
--w Das la wordlist
+-w Wordlist
 
 ```text
 -w /usr/share/wordlists/rockyou.txt
 ```
--s Se pone sólo, para que se indique que se desean escanear subdominios
+-s Option to scan subdomains
 
--e E
+-e Export the results on a txt, put the name of the file
+
+-c Option to crawl
+
+-b Option for bruteforcing a login page
