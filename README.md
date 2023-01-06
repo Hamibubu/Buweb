@@ -20,3 +20,13 @@ Crawler, bruteforce directory, bruteforce login
 -c Option to crawl
 
 -b Option for bruteforcing a login page
+
+## How to install
+
+
+```text
+git clone https://github.com/Hamibubu/buweb.git
+```
+
+Install the requirements.txt
+
